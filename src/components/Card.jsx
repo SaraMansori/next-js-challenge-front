@@ -50,6 +50,7 @@ const Card = ({ restaurant, isFavorite, setFavRestaurants }) => {
             </Button>
           </a>
         </NextLink>
+
         {user && <StarIcon onClick={handleClick} cursor={'pointer'} color={isFavorite ? 'pink.400' : 'gray.400'} />}
       </Flex>
     </Box>

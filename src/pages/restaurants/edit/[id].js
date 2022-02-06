@@ -16,7 +16,7 @@ function editRestaurant() {
         <meta name="description" content="Add Restaurant" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main style={{ width: '100%' }}>
         <Flex
           w={'100%'}
           minH={'80vh'}
