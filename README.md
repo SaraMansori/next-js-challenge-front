@@ -13,6 +13,7 @@ Technical Challenge using Next.js
 - User can add and remove restaurants from favorites when logged
 - Protected Routes
 - Context API
+- Responsive Design
 - UI Library: [Chakra UI](https://chakra-ui.com/)
 
 ## How to run
