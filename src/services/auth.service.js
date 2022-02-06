@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const authService = axios.create({
-  baseURL: `${process.env.NEXT_PUBLIC_API_URL}/auth`
+  baseURL: `https://next-api-rest.herokuapp.com/api/auth`
 });
 
 export function signUp(credentials) {

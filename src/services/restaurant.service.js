@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const restaurantsService = axios.create({
-  baseURL: `${process.env.NEXT_PUBLIC_API_URL}/restaurants`
+  baseURL: `https://next-api-rest.herokuapp.com/api/restaurants`
 });
 
 export function getAllRestaurants() {

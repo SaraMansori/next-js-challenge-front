@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const userService = axios.create({
-  baseURL: `${process.env.NEXT_PUBLIC_API_URL}/user`
+  baseURL: `https://next-api-rest.herokuapp.com/api/user`
 });
 
 export function getProfile(token) {
