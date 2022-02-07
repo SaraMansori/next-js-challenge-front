@@ -8,7 +8,9 @@ Technical Challenge using Next.js
 ## Main Functionalities
 
 - CRUD of Restaurants
-- Linked to a deployed API REST (https://next-api-rest.herokuapp.com/api) - (https://github.com/SaraMansori/next-js-challenge-server)
+- Fetch from an API REST 
+  - [Link to the API](https://next-api-rest.herokuapp.com/api) 
+  - [Link to the API repository](https://github.com/SaraMansori/next-js-challenge-server)
 - Authentication with [JSON Web Token](https://jwt.io/)
 - User can add and remove restaurants from favorites when logged
 - Protected Routes
