@@ -1,4 +1,3 @@
-import '../styles/globals.css'
 import { ChakraProvider, Container } from '@chakra-ui/react';
 import NavBar from '../components/Navigation/NavBar';
 import { AuthProviderWrapper } from '../context/auth.context'
